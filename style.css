@@ -1,0 +1,25 @@
+html,
+body,
+form,
+h3 {
+    margin: 0;
+}
+
+.holder{
+    background-color:#262626;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ButtonId, .center{
+    background-color: #1d1d1d;
+    font-size: 6vw;
+    padding-left: 100;
+    color: rgb(255, 0, 157);
+    height: 40vw;
+    width: 50vw;
+    display: flex;
+}
