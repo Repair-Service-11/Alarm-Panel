@@ -9,6 +9,7 @@ body{
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    font-size: 6vw;
   }
 
   .holder{
@@ -72,6 +73,7 @@ select{
     border-style:double;
     border-color: rgb(81, 165, 42);
     margin-left: 1vw;
+    font-size: 1.3vw;
 }
 /***/
 
