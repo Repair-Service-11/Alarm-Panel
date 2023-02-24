@@ -38,10 +38,20 @@ body{
 
 select{
     color: aqua;
-    background-color: #262626;
+    background-color: #000000;
     border-radius: 1vw;
     border-width: 1vw;
     border-style:double;
     border-color: rgb(81, 165, 42);
     margin-left: 1vw;
+}
+/***/
+
+
+
+.other{
+    color: rgb(255, 0, 0);
+    background-color: black;
+    text-align: center;
+    justify-content: center;
 }

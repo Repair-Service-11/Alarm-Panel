@@ -20,7 +20,7 @@
                 <div class="question">
                     <label for="message">Что случилось</label>
                     <select class="selects" name="message" id="message"> <!--multiple="multiple" size="4"-->
-                            <option value="/">---Сначала выбери причину, затем жмякни на кнопку---</option>
+                            <option value="/" class="output">---Сначала выбери причину, затем жмякни на кнопку---</option>
                         <optgroup label="ХВС">
                             <option value="Операторы тупят. У них кончилась вода на вводе, а они от тебя чего-то хотят.">Низкое давление. Серъёзно? Нажмешь?</option>
                             <option value="На входе раздолбали манометр.">Неисправен манометр (точно ли?)</option>
@@ -36,9 +36,9 @@
                             <option value="Перегрев термистора сетевого насоса">Горит индикатор аварии</option>
                         </optgroup>
                         <optgroup label="ПВН (1-4)">
-                            <option value="Низкое давление ГВС">Низкое давление ГВС</option>
-                            <option value="Высокое в честь чего-то давление ГВС">Высокое давление ГВС? Ну дак убавь</option>
-                            <option value="Отключение питания ПВН, сбой ПЧ, либо неисправность ЭД">Не работает насос</option>
+                            <option class="options" value="Низкое давление ГВС">Низкое давление ГВС</option>
+                            <option class="options" value="Высокое в честь чего-то давление ГВС">Высокое давление ГВС? Ну дак убавь</option>
+                            <option class="options" value="Отключение питания ПВН, сбой ПЧ, либо неисправность ЭД">Не работает насос</option>
                         </optgroup>
                         <optgroup label="КВГМ">
                             <option value="Засорение датчика пламени, либо некорректные показатели горения.">Нет факела горелки</option>
@@ -52,6 +52,7 @@
                             <option value="Теплообменник засрало.">S4 = S5 или S4 &lt; S5</option>
                             <option value="Теплообменник ушатан.">S5 &gt; 75</option>
                         </optgroup>
+                            <option class="other" value="Операторы хотят чего-то, но затрудняются сформулировать что именно">Иная причина</option>
                     </select>
                 </div>
                 <div>
