@@ -19,7 +19,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     background: repeating-linear-gradient(
   45deg,
   #000000,
@@ -68,4 +68,30 @@ select{
     background-color: black;
     text-align: center;
     justify-content: center;
+}
+.alert{
+    color: #555555;
+    font-size: 2vw;
+}
+
+/***************/
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+
+    padding: 5vw;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-0%, -0%);
+    font-size: 2vw;
 }
