@@ -19,32 +19,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
     background: repeating-linear-gradient(
   45deg,
   #000000,
   #000000 10px 40px,
   #a6ff00 40px 80px
-);
-   /*
-    background: repeating-linear-gradient(
-        to right, 
-        #fff 0 6.25vw,
-        #ff0 6.25vw 12.5vw,
-        #0ff 12.5vw 18.75vw,
-        #0f0 18.75vw 25vw,
-        #f0f 25vw 31.25vw,
-        #f00 31.25vw 37.5vw,
-        #00f 37.5vw 43.75vw,
-        #000 43.75vw 50vw
-        );
-        */
-        
+);   
     border-radius: 3vw;
     border-width: 0.3vw;
     border-color: #f00;
     border-style:solid;
 }
-
+/**/
   #ButtonId, .center{
     background-color: #1d1d1d;
     font-size: 6vw;
@@ -58,13 +45,13 @@ body{
     border-color: #f00;
     border-style: double;
 }
-
+/**/
 .question{
     color: aqua;
     margin-left: 7vw;
     margin-bottom: 1vw;
 }
-
+/**/
 select{
     color: aqua;
     background-color: #000000;
@@ -76,9 +63,6 @@ select{
     font-size: 1.3vw;
 }
 /***/
-
-
-
 .other{
     color: rgb(255, 0, 0);
     background-color: black;
